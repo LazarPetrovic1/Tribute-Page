@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: salmon;
+  font-size: 20px;
+}
+#title {
+  text-align: center;
+  color: maroon;
+  font-weight: bolder;
+}
+#img-div {
+  margin: auto;
+}
+#image {
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+#img-caption {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+#tribute-info p {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+ul {
+  /* list-style-type: url('computer2.png'); */
+}
+ul li {
+  list-style: url("computer2.png");
+  margin-left: 20%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.year {
+  font-weight: bold;
+  color: blue;
+}
+#last {
+  padding: 50px;
+}
+#tribute-link {font-weight: bold; color: violet;}
+#tribute-link:hover {
+  color: white;
+  font-weight: bold;
+}
+#tribute-link:visited {
+  color: orangered;
+  font-weight: bold;
+}
